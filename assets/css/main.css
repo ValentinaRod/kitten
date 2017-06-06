@@ -1,18 +1,47 @@
-body{
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.contenedor{
+*{
 	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
-	justify-content: center;
-	position: relative;
 }
 
-.gato{
-    position: absolute;
-    top: 280px;
+body {
+
+/* Ubicación de la imagen */
+
+background-image: url('../img/Copia de Landscape.jpg');
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
 }
+.container {
+	
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	background-size: cover;
+	
+}
+img {
+	margin: auto;
+	max-width: 400px;
+	width: 80%;
+	align-self: flex-end;
+
+
+}
+
+

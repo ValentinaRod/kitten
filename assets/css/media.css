@@ -1,32 +1,15 @@
-@media (min-width: 1051px) and (max-width: 1280px){
-	body{
-		background-image: url(../img/Copia-de-Landscape.jpg);
-		background-size: 100%;
-		overflow: auto;
-		background-repeat: no-repeat;
-
+@media (min-width: 535px) and (max-width: 824px){
+	.container{
+		background: url('../img/Copia de dawn.png');
+		
 	}
-
 }
 
-@media (min-width: 551px) and (max-width: 1050px){
-	body{
-		background-image: url(../img/Copia-de-dawn.png);
-		background-size: cover;
-		height: 100vh;	
+@media (min-width: 200px) and (max-width: 534px){
+	.container{
+		background: url('../img/Copia de maxresdefault.jpg');
 	}
-
 }
-
-@media (min-width: 1px) and (max-width: 550px){
-	body{
-		background-image: url('../img/Copia de Landscape.jpg');
-		background-size: cover;
-		height: 100vh;
-	}
-
-}
-
 
 
 
